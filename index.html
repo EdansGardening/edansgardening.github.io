@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edan's Gardening</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .services li {
+      margin-bottom: 0.5rem;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+      width: 100%;
+      padding: 0.7rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .contact-form button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    img.placeholder {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Edan's Gardening</h1>
+  <p>North Brisbane & Surrounds | Free Quotes | Reliable & Professional</p>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <ul class="services">
+    <li>Mowing</li>
+    <li>Edging</li>
+    <li>Weeding</li>
+    <li>General Garden Maintenance</li>
+  </ul>
+  <img src="https://via.placeholder.com/900x300?text=Gardening+Image" alt="Gardening Image" class="placeholder">
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Have a question or want to book a service? Send us a message below and we'll get back to you!</p>
+  <form class="contact-form" action="mailto:edansgardening@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Edan's Gardening. All Rights Reserved.
+</footer>
+
+</body>
+</html>
